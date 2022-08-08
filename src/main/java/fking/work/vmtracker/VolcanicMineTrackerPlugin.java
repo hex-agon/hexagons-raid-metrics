@@ -17,7 +17,7 @@ public class VolcanicMineTrackerPlugin extends Plugin {
     private static final int PROC_VOLCANIC_MINE_SET_OTHERINFO = 2022;
 
     private static final int HUD_COMPONENT = 611;
-    private static final int HUD_STABILITY_COMPONENT = 13;
+    private static final int HUD_STABILITY_COMPONENT = 11;
 
     private static final int GAME_STATE_IN_LOBBY = 1;
     private static final int GAME_STATE_IN_GAME = 2;
