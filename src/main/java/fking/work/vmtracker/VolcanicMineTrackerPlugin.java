@@ -11,7 +11,7 @@ import javax.inject.Inject;
 
 @PluginDescriptor(name = "Volcanic Mine Stability Tracker", description = "Tracks the mine stability changes and displays them on the hud.")
 public class VolcanicMineTrackerPlugin extends Plugin {
-
+    int tim = 0;
     private static final int VARBIT_STABILITY = 5938;
     private static final int VARBIT_GAME_STATE = 5941;
     private static final int PROC_VOLCANIC_MINE_SET_OTHERINFO = 2022;
